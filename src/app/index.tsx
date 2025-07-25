@@ -2,37 +2,58 @@ import { StyleSheet, Text, View } from 'react-native'
 
 const Index = () => {
     return (
-        // <View style={styles.container}>
-        //     <View style={styles.main}>
-        //         <Text style={styles.title}>Hello World</Text>
-        //     </View>
-        // </View>
-        <View>
-            <Text>Hello World</Text>
+        <View style={styles.container}>
+            <View>
+                <View>
+                    <Text>SimpleMemo</Text>
+                    <Text>ログアウト</Text>
+                </View>
+            </View>
+            <View>
+                <View>
+                    <View>
+                        <Text>買い物リスト</Text>
+                        <Text>2025年7月25日 20:38</Text>
+                    </View>
+                    <View>
+                        <Text>X</Text>
+                    </View>
+                </View>
+
+                <View>
+                    <View>
+                        <Text>買い物リスト</Text>
+                        <Text>2025年7月25日 20:38</Text>
+                    </View>
+                    <View>
+                        <Text>X</Text>
+                    </View>
+                </View>
+
+                <View>
+                    <View>
+                        <Text>買い物リスト</Text>
+                        <Text>2025年7月25日 20:38</Text>
+                    </View>
+                    <View>
+                        <Text>X</Text>
+                    </View>
+                </View>
+            </View>
+
+            <View>
+                <Text>+</Text>
+            </View>
         </View>
     )
 }
 
-// const styles = StyleSheet.create({
-//     container: {
-//         flex: 1,
-//         alignItems: 'center',
-//         padding: 24,
-//     },
-//     main: {
-//         flex: 1,
-//         justifyContent: 'center',
-//         maxWidth: 960,
-//         marginHorizontal: 'auto',
-//     },
-//     title: {
-//         fontSize: 64,
-//         fontWeight: 'bold',
-//     },
-//     subtitle: {
-//         fontSize: 36,
-//         color: '#38434D',
-//     },
-// })
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+})
 
 export default Index

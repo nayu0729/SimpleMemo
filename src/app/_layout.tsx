@@ -1,6 +1,7 @@
+import { JSX } from 'react'
 import { Slot } from 'expo-router'
 
-const Layout = (): React.ReactElement => {
+const Layout = (): JSX.Element => {
     return <Slot />
 }
 
